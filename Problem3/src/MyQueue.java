@@ -95,27 +95,19 @@ public class MyQueue {
         obj1.setName("shashank");
         obj1.setRoll(6);
         queue.enqueue(obj1);
-        //list.add(obj1);
         student obj2 = new student();
         obj2.setName("prashant");
         obj2.setRoll(2);
         queue.enqueue(obj2);
-        //list.add(obj2);
         student obj = new student();
         obj.setName("maneesh");
         obj.setRoll(10);
         queue.enqueue(obj);
-        //list.add(obj);
         student obj4 = new student();
         obj4.setName("shreya");
         obj4.setRoll(4);
-        queue.enqueue(obj4);
-        //list.add(obj4);
+        queue.enqueue(obj);
         System.out.println("the size queue is = " + queue.getSize());
-        //Collections.sort(list);
-		/*for (student e : list) {
-			System.out.println(e);
-		}*/
         queue.sortList();
         queue.traverse();
     }
